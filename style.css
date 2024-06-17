@@ -51,6 +51,8 @@ h2{
 }
 
 .boxProduto{
+    display: flex;
+    align-items: center;
     background-color: rgba(37, 37, 37, 0.8);
     width: 850px;
     margin: auto;
