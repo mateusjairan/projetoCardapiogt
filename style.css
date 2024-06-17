@@ -2,12 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
+    @import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
 }
+
+:root{
+    --corBotoeseH2Texto:#FFAE00;
+    --arredontamentoBordas:10px;
+    --minhaFonte: "Baskervville", serif;
 
 body{
     background-image: url(imagens/bg.png);
     /* background-repeat: no-repeat;
     background-size: cover; */
+    text-align: center;
 }
 
 header{
@@ -20,4 +28,55 @@ nav a{
     margin: 0px 10px ;
     text-decoration: none;
     padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--minhaFonte);
+}
+
+.logo{
+   width: 250px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    color: var(--corBotoeseH2Texto);
+    text-align: center;
+}
+
+.imagemProduto{
+    width: 400px;
+}
+
+.boxProduto{
+    background-color: rgba(37, 37, 37, 0.8);
+    width: 850px;
+    margin: auto;
+    border-radius: var(--arredontamentoBordas);
+}
+
+.boxImagem, .boxTexto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.boxTexto{
+    width: 400px;
+    text-align: start;
+}
+
+h1, h2, h3, button{
+    margin: 10px 0px;
+}
+
+button{
+    background-color:var(--corBotoeseH2Texto);
+    padding: 15px;
+    border: none;
+    border-radius: var(--arredontamentoBordas);
+    width: 150px;
+    cursor: pointer;
+}
 }
