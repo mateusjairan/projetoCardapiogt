@@ -10,7 +10,7 @@
     --corBotoeseH2Texto:#FFAE00;
     --arredontamentoBordas:10px;
     --minhaFonte: "Baskervville", serif;
-
+}
 body{
     background-image: url(imagens/bg.png);
     /* background-repeat: no-repeat;
@@ -82,5 +82,4 @@ button{
     border-radius: var(--arredontamentoBordas);
     width: 150px;
     cursor: pointer;
-}
 }
