@@ -83,3 +83,7 @@ button{
     width: 150px;
     cursor: pointer;
 }
+
+.modal h6{
+    color: black;
+}
