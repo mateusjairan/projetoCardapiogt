@@ -57,8 +57,9 @@ h2{
     align-items: center;
     background-color: rgba(37, 37, 37, 0.8);
     width: 850px;
-    margin: auto;
+    margin: 20px auto;
     border-radius: var(--arredontamentoBordas);
+    padding: 20px;
 }
 
 .boxImagem, .boxTexto{
